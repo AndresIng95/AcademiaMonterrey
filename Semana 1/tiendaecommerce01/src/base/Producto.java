@@ -8,7 +8,9 @@ public abstract class Producto {
 	//cuantos productos son
 	private static int productocounter = 0;
 	
-	private int pID;
+	//Puedo hacer mi pIDinmutable con final, y tmb podria con nombre y precio, pero para demostrar diferentes niveles
+	//de acceso puse protected.
+	final private int pID;
 	protected String nombre;
 	protected double precio;
 	public Producto(int pID,String nombre, double precio) {

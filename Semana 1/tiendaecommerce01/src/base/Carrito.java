@@ -4,14 +4,15 @@ import java.util.List;
 
 public class Carrito<T extends Producto> {
 
-	//Hace que para en el main acepte nuevos objetos que sean parte de Producto, sin especificar que tipo de producto es
+	//Hace que para en el main acepte nuevos objetos que sean parte de Producto, sin especificar que tipo de producto es, generics
     private List<T> products = new ArrayList<>();
 
     public void addProduct(T product) {
         products.add(product);
         
         //Area para agragar la adicion a la clase singleton de transaccion de tienda, si me deja usar ENUM seria esto
-        Transacciontienda.INSTANCE.addIncome(product.getPrice());
+        //Transacciontienda.INSTANCE.addIncome(product.getPrice());
+        //Trono al intentar sacar descuento, movido a cliente
     }
 
     public List<T> getProducts() {

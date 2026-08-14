@@ -1,7 +1,7 @@
 package base;
 
 public class Electronico extends Producto {
-	String Brand;
+	protected String Brand;
 
 	public Electronico(int pID, String nombre, double precio, String brand) {
 		super(pID, nombre, precio);

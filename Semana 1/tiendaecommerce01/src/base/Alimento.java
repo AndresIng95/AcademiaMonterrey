@@ -1,7 +1,7 @@
 package base;
 
 public class Alimento extends Producto {
-	boolean perishable;
+	protected boolean perishable;
 
 	public Alimento(int pID, String nombre, double precio, boolean perishable) {
 		super(pID, nombre, precio);

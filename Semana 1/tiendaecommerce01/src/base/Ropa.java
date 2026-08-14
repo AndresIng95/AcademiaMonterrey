@@ -1,7 +1,7 @@
 package base;
 
 public class Ropa extends Producto {
-	char talla;
+	protected char talla;
 
 	public Ropa(int pID, String nombre, double precio, char talla) {
 		super(pID, nombre, precio);
@@ -16,6 +16,13 @@ public class Ropa extends Producto {
 		this.talla = talla;
 	}
 
+	@Override
+	public String toString() {
+	    return "Ropa{" +
+	           "nombre='" + getName() + '\'' +
+	           ", precio=" + getPrice() + '\'' + ", talla = "+ getTalla() +
+	           '}';
+	}
 
 	
 }

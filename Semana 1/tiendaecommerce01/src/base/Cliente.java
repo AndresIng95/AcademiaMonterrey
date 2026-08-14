@@ -31,5 +31,15 @@ public class Cliente {
     public MetodoPago getMetodoPago() {
         return metodopago;
     }
+    
+    public double checkout() {
+        double originalTotal = carrito.getTotal();
+
+        double finalTotal = metodopago.pay(originalTotal);
+
+        Transacciontienda.INSTANCE.addIncome(finalTotal);
+
+        return finalTotal;
+    }
 	
 }
