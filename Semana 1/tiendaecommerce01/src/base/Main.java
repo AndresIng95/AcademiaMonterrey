@@ -21,7 +21,23 @@ package base;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Prueba 32");
+		Cliente cliente = new Cliente("John", true);
+
+		cliente.getCarrito().addProduct(
+		    new Alimento(1,"Manzana", 40.00,true)
+		);
+
+		cliente.getCarrito().addProduct(
+		    new Alimento(2,"Lata de Conserva", 60.00, false)
+		);
+
+		double total = cliente.getCarrito().getTotal();
+
+		double amountPaid = cliente.getMetodoPago().pay(total);
+
+		System.out.println("Client: " + cliente.getNombre());
+		System.out.println("Original total: $" + total);
+		System.out.println("Final total: $" + amountPaid);
 
 	}
 

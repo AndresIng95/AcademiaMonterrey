@@ -9,9 +9,22 @@ public class Carrito<T extends Producto> {
 
     public void addProduct(T product) {
         products.add(product);
+        
+        //Area para agragar la adicion a la clase singleton de transaccion de tienda, si me deja usar ENUM seria esto
+        Transacciontienda.INSTANCE.addIncome(product.getPrice());
     }
 
     public List<T> getProducts() {
         return products;
+    }
+    
+    public double getTotal() {
+        double total = 0;
+
+        for (Producto product : products) {
+            total += product.getPrice();
+        }
+
+        return total;
     }
 }
