@@ -18,6 +18,10 @@ public class Carrito<T extends Producto> {
         return products;
     }
     
+    public void sort(java.util.Comparator<? super T> comparator) {
+        products.sort(comparator);
+    }
+    
     public double getTotal() {
         double total = 0;
 

@@ -18,9 +18,12 @@ package base;
  Lambdas
 */
 
+
 public class Main {
 
 	public static void main(String[] args) {
+		//Si es miembro, con entrada de nombre y boolean, se usan clases anonimas para crear productos en el manejo del
+		//carrito
 		Cliente cliente = new Cliente("John", true);
 
 		cliente.getCarrito().addProduct(
@@ -38,7 +41,90 @@ public class Main {
 		System.out.println("Client: " + cliente.getNombre());
 		System.out.println("Original total: $" + total);
 		System.out.println("Final total: $" + amountPaid);
+		
+		//No es miembro
+		Cliente cliente2 = new Cliente("Lola", false);
+
+		cliente2.getCarrito().addProduct(
+		    new Alimento(3,"Pastel", 100.00,true)
+		);
+
+		cliente2.getCarrito().addProduct(
+		    new Electronico(4,"Pantalla", 400.00, "Samsung")
+		);
+		
+		cliente2.getCarrito().addProduct(
+			new Ropa(5,"Blusa", 200.00, 'M')
+		);
+
+
+		double total2 = cliente2.getCarrito().getTotal();
+
+		double amountPaid2 = cliente2.getMetodoPago().pay(total2);
+
+		System.out.println("Client: " + cliente2.getNombre());
+		System.out.println("Original total: $" + total2);
+		System.out.println("Final total: $" + amountPaid2);
+		//No hay descuento, el total es 700.
+		
+		//Agrege 5 productos, cuenta 5 gracias a static
+		System.out.println(Producto.getProductCounter());
+		
+	    System.out.println("Productos sin sort:");
+
+	    for (Producto product1 : cliente2.getCarrito().getProducts()) {
+	        System.out.println(
+	            product1.getName() + " - $" + product1.getPrice()
+	        );
+	    }
+	    
+		
+	    // Sort alfabeticamente
+	    cliente2.getCarrito().sort(ProductComparator.byName());
+
+	    System.out.println("Productos alfabeticamente:");
+
+	    for (Producto product2 : cliente2.getCarrito().getProducts()) {
+	        System.out.println(
+	            product2.getName() + " - $" + product2.getPrice()
+	        );
+	    }
+	    
+	    cliente2.getCarrito().sort(ProductComparator.byPrice());
+
+	    System.out.println("Productos por precio:");
+
+	    for (Producto product : cliente2.getCarrito().getProducts()) {
+	        System.out.println(
+	            product.getName() + " - $" + product.getPrice()
+	        );
+	    }
+
+		
+		Cliente cliente3 = new Cliente("Perez", false);
+		Alimento alimento1 = new Alimento(6,"Filete",50.00,true);
+
+		cliente3.getCarrito().addProduct(alimento1);
+
+		cliente3.getCarrito().addProduct(alimento1);
+		
+
+		double total3 = cliente3.getCarrito().getTotal();
+
+		double amountPaid3 = cliente3.getMetodoPago().pay(total3);
+
+		System.out.println("Client: " + cliente3.getNombre());
+		System.out.println("Original total: $" + total3);
+		System.out.println("Final total: $" + amountPaid3);
+		
+		System.out.println(Producto.getProductCounter());
+		//Se agrego un alimento base sin usar anonimas para demostrar que product counter no se aumenta si es el mismo
+		//producto, se agrego filete dos veces al carrito y se aplico bien.
+		
+		//Seccion de comparator
 
 	}
 
 }
+
+
