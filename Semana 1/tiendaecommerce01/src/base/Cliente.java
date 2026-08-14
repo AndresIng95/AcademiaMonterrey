@@ -1,8 +1,8 @@
 package base;
 
 public class Cliente {
-	String nombre;
-	boolean membresia;
+	private String nombre;
+	private boolean membresia;
 	//Parametrizar el carrito con el objeto abstracto	
 	Carrito<Producto> carrito;
 	public Cliente(String nombre, boolean membresia) {
@@ -11,5 +11,15 @@ public class Cliente {
 		this.membresia = membresia;
 		this.carrito = new Carrito<>();
 	}
+	public String getNombre() {
+		return nombre;
+	}
+	public boolean isMembresia() {
+		return membresia;
+	}
+	public void setMembresia(boolean membresia) {
+		this.membresia = membresia;
+	}
+	
 	
 }

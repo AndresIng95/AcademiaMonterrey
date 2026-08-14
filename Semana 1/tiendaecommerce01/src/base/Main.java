@@ -2,19 +2,19 @@ package base;
 /* Lista que tiene que tener el proyecto
  Polimorfismo              !!!!!!!!!!!!!
  Casting
- Singleton
+ Singleton					!!!!!!!!!!!!!!!!
  HAS-A IS-A					!!!!!!!!!!!!!!!!
  Comparables Comparators
  Anonimas
  Inmutabilidad
- Static
+ Static    					!!!!!!!!!!!!!!
  Final
- Generics
+ Generics					!!!!!!!!!!!!!!!!!
  Interfaces
  Abstract					!!!!!!!!!!!!!!!!!!!
  Constructors				!!!!!!!!!!!!!!!!!!!
  Modificadores de acceso	!!!!!!!!!!!!!!!!!!
- Encapsulacion
+ Encapsulacion				!!!!!!!!!!!
  Lambdas
 */
 
