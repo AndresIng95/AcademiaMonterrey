@@ -12,7 +12,7 @@ public class Alimento extends Producto {
 		return perishable;
 	}
 
-	public void setPerishable(boolean perishable) {
+	protected void setPerishable(boolean perishable) {
 		this.perishable = perishable;
 	}
 

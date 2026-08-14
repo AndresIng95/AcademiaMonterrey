@@ -6,7 +6,7 @@ package base;
  HAS-A IS-A					!!!!!!!!!!!!!!!!
  Comparables Comparators	!!!!!!!!!!!!
  Anonimas					!!!!!!!!!!!
- Inmutabilidad
+ Inmutabilidad				!!!!!!!!!!!!
  Static    					!!!!!!!!!!!!!!
  Final						!!!!!!!!!!!!
  Generics					!!!!!!!!!!!!!!!!!
@@ -15,7 +15,7 @@ package base;
  Constructors				!!!!!!!!!!!!!!!!!!!
  Modificadores de acceso	!!!!!!!!!!!!!!!!!!
  Encapsulacion				!!!!!!!!!!!
- Lambdas
+ Lambdas					!!!!!!!!!!!
 */
 
 
@@ -27,7 +27,7 @@ public class Main {
 		Cliente cliente = new Cliente("John", true);
 
 		cliente.getCarrito().addProduct(
-				//Esto es un anonimo
+				//Esto es un anonimo y polimorfismo en este comando.
 		    new Alimento(1,"Manzana", 40.00,true)
 		);
 
@@ -125,14 +125,14 @@ public class Main {
 		System.out.println("Original total: $" + total3);
 		System.out.println("Final total: $" + amountPaid3);
 		
-		System.out.println(Producto.getProductCounter());
 		//Se agrego un alimento base sin usar anonimas para demostrar que product counter no se aumenta si es el mismo
-		//producto, se agrego filete dos veces al carrito y se aplico bien.
+		//producto, se agrego filete dos veces al carrito y se aplico bien.		
+		System.out.println(Producto.getProductCounter());
 		
-		//Sistema singleton para hacer el checkout del dia con el dinero recibido
+		//Sistema singleton para hacer el checkout del dia con el dinero recibido, tambien se usa estrategia aqui
+		//por el momento solo hay pago por membresia pero se podria agregar un descuenta por dia, agregando una clase fecha sencilla
+		//y si es viernes de oferta aplicando un 25% de descuento con la clase PagoOferta, hacer descuentos multiplicativos, y no aditivos
 		//Printea por cliente
-		
-		
 		System.out.println("\nCheckout con singleton de Transacciontienda: ");
 		System.out.println(cliente.checkout());
 	    System.out.println(cliente2.checkout());
@@ -176,7 +176,7 @@ public class Main {
 	      .getProducts()
 	      .forEach(product4 ->
 	          System.out.println(
-	              product4.getName() + " - $" + product3.getPrice()
+	              product4.getName() + " - $" + product4.getPrice()
 	          )
 	      );
 	}

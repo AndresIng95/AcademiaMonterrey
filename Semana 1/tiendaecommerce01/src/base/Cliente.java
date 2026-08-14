@@ -3,6 +3,7 @@ package base;
 public class Cliente {
 	private String nombre;
 	private boolean membresia;
+	//Polymorfismo, capacidad de meter directamente objetos especificos en carrito
     private Carrito<Producto> carrito;
     private MetodoPago metodopago;
 	//Parametrizar el carrito con el objeto abstracto	
@@ -20,7 +21,7 @@ public class Cliente {
 	public boolean isMembresia() {
 		return membresia;
 	}
-	public void setMembresia(boolean membresia) {
+	protected void setMembresia(boolean membresia) {
 		this.membresia = membresia;
 	}
 

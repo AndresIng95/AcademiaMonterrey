@@ -12,7 +12,7 @@ public class Electronico extends Producto {
 		return Brand;
 	}
 
-	public void setBrand(String brand) {
+	protected void setBrand(String brand) {
 		Brand = brand;
 	}
 

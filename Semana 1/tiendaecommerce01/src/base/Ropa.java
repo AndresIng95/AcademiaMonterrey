@@ -12,7 +12,7 @@ public class Ropa extends Producto {
 		return talla;
 	}
 
-	public void setTalla(char talla) {
+	protected void setTalla(char talla) {
 		this.talla = talla;
 	}
 
