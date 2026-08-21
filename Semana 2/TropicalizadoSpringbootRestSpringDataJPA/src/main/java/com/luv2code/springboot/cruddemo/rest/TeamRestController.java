@@ -119,3 +119,54 @@ public class TeamRestController {
     }
 
 }
+
+
+
+
+/*The Windows powershell terminal commands that were used to test the program
+ * 
+ * 
+ * 
+ * $BASE = "http://localhost:8070/api/teams" 
+ * Invoke-RestMethod -Uri $BASE -Method GET | ConvertTo-Json
+ * 
+ * $team = @{
+>>     name  = "America"
+>>     city  = "Cd de Mexico"
+>>     sport = "Soccer"
+>> } | ConvertTo-Json
+ * 
+ * 
+ * Invoke-RestMethod -Uri $BASE -Method POST `
+>>     -ContentType "application/json" `
+>>     -Body $team | ConvertTo-Json
+ * 
+ * Invoke-RestMethod -Uri "$BASE/3" -Method GET | ConvertTo-Json
+ * 
+ * Invoke-RestMethod -Uri "$BASE/6" -Method GET | ConvertTo-Json
+ * 
+ * $team = @{
+>>     id    = 3
+>>     name  = "Los Angeles Dodgers"
+>>     city  = "Los Angeles"
+>>     sport = "Baseball"
+>> } | ConvertTo-Json
+ * 
+ * Invoke-RestMethod -Uri $BASE -Method PUT `
+>>     -ContentType "application/json" `
+>>     -Body $team | ConvertTo-Json
+ * 
+ * $patch = @{
+>>     city = "San Nicolas de los Garza"
+>> } | ConvertTo-Json
+ * 
+ * Invoke-RestMethod -Uri "$BASE/1" -Method PATCH `
+>>     -ContentType "application/json" `
+>>     -Body $patch | ConvertTo-Json
+ * 
+ * Invoke-RestMethod -Uri "$BASE/3" -Method DELETE
+ * 
+ * 
+ * All changes where reflected on the database.
+ * 
+ */
