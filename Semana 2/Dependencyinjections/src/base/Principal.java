@@ -15,6 +15,13 @@ public class Principal {
 		Inyector.inyectarphone2(estudiante);
 		System.out.println("************ ");
 		estudiante.usarphone();
+		
+		//Seccion de inyeccion por setter
+		Inyector.inyectarclub(estudiante);
+		estudiante.queclub();
+		System.out.println("************ ");
+		Inyector.inyectarclub2(estudiante);
+		estudiante.queclub();
 
 	}
 

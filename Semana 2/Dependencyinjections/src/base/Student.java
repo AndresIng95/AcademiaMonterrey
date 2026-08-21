@@ -13,4 +13,16 @@ public class Student {
     void usarphone() {
     	celular.encender();
     }
+    
+    void queclub(){
+    	club.attend();
+    }
+
+	public Club getClub() {
+		return club;
+	}
+
+	public void setClub(Club club) {
+		this.club = club;
+	}
 }
