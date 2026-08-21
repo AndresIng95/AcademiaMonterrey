@@ -16,6 +16,17 @@ public class Inyector {
 	static void inyectarclub2(Student studen) {
 		studen.setClub(new Bookclub());
 	}
+	
+	static Student getStudent() {
+		Transport transportestuden = new Bustransport();
+		return new Student("Anon",transportestuden);	
+	}
+	
+	static Student getStudent2() {
+		Transport transportestuden = new Cartransport();
+		return new Student("Anon2",transportestuden);	
+	}
+
 
 
 }
