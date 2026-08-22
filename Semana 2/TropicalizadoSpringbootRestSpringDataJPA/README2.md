@@ -4,6 +4,7 @@ Aqui estan los comandos de powershell, confirmado que tambien aparecen en Mongo 
  Invoke-RestMethod -Uri $BASE -Method GET | ConvertTo-Json
 
  Resultado fue
+ 
 {
     "value":  [
 
@@ -29,6 +30,7 @@ Aqui estan los comandos de powershell, confirmado que tambien aparecen en Mongo 
 
 
 Resultado fue
+
  {
     "name":  "Rayados",
     "city":  "Monterrey",
@@ -48,6 +50,7 @@ Resultado fue
      -Body $body | ConvertTo-Json
 
 Resultado fue
+
 {
     "name":  "Tigres UANL",
     "city":  "San Nicolas de los Garza",
@@ -63,6 +66,7 @@ Resultado fue
  Invoke-RestMethod -Uri "$BASE/$ID" -Method PATCH `
      -ContentType "application/json" `
      -Body $body | ConvertTo-Json
+     
 Resultado fue
  
 {
@@ -73,11 +77,15 @@ Resultado fue
 }
 
   Invoke-RestMethod -Uri "$BASE/$ID" -Method DELETE
+  
 Resultado fue
+
  Deleted team id - 6a88f81fb35703cd2126f63e
  
   Invoke-RestMethod -Uri $BASE -Method GET | ConvertTo-Json
+  
  Resultado fue
+ 
  {
     "value":  [
 
