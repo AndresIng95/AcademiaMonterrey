@@ -1,0 +1,380 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 08 15:50:20 CST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>687 seconds (687233 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToEmpresasOption()'><b>shouldNavigateToEmpresasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Multinacionales, https://www.santander.com.mx/personas/acerca-del-banco/multinacionales.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToBancaPrivada()'><b>shouldNavigateToBancaPrivada</b><br>Test class: tests.SantanderTest</td>
+<td></td>
+<td>7</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Básica, https://www.santander.com.mx/personas/cuentas/basica/</td>
+<td></td>
+<td>4</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Créditos, https://www.santander.com.mx/pyme/creditos.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Tarjetas de crédito, https://www.santander.com.mx/personas/credito-y-financiamiento/tarjetas-de-credito/</td>
+<td></td>
+<td>6</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: App Santander, https://www.santander.com.mx/personas/santander-digital/app-santander/</td>
+<td></td>
+<td>1</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Ecosistema no financiero, https://www.santander.com.mx/pyme/ecosistemas-pyme.html</td>
+<td></td>
+<td>9</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Santander Web, https://www.santander.com.mx/personas/santander-digital/santander-web/</td>
+<td></td>
+<td>6</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToAcercaBancoOption()'><b>shouldNavigateToAcercaBancoOption</b><br>Test class: tests.SantanderTest<br>Parameters: Sostenibilidad, https://www.santander.com.mx/personas/acerca-del-banco/responsabilidad-social.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Mundo hogar, https://www.mundohogar.com.mx/</td>
+<td></td>
+<td>2</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToAcercaBancoOption()'><b>shouldNavigateToAcercaBancoOption</b><br>Test class: tests.SantanderTest<br>Parameters: Bolsa de trabajo, https://www.santander.com.mx/personas/bolsa-de-trabajo.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToAcercaBancoOption()'><b>shouldNavigateToAcercaBancoOption</b><br>Test class: tests.SantanderTest<br>Parameters: Fundación Santander, https://www.santander.com.mx/personas/acerca-del-banco/fundacion-santander.html</td>
+<td></td>
+<td>19</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Seguros, https://www.santander.com.mx/pyme/seguros.html</td>
+<td></td>
+<td>12</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Inversiones, https://www.santander.com.mx/pyme/inversiones.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToAcercaBancoOption()'><b>shouldNavigateToAcercaBancoOption</b><br>Test class: tests.SantanderTest<br>Parameters: Blog, https://www.santander.com.mx/personas/blog.html</td>
+<td></td>
+<td>5</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: SuperLínea, https://www.santander.com.mx/personas/superlinea.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Sucursales, https://www.santander.com.mx/personas/sucursales.html</td>
+<td></td>
+<td>19</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Fondos de inversión, https://www.santander.com.mx/personas/inversiones/#fondos-de-inversion</td>
+<td></td>
+<td>15</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Regulación, https://www.santander.com.mx/personas/regulacion/tramite-por-defuncion.html</td>
+<td></td>
+<td>2</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Select, https://www.santander.com.mx/personas/select.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Paquetes Pymes, https://www.santander.com.mx/pyme/paquetes-pymes.html</td>
+<td></td>
+<td>4</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Límite por transacción, https://www.santander.com.mx/personas/santander-digital/limite-por-transaccion/</td>
+<td></td>
+<td>0</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Pertenencias, https://www.santander.com.mx/personas/seguros.html#pertenencias</td>
+<td></td>
+<td>9</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Cheques, https://www.santander.com.mx/personas/cuentas/cheque-saldo-promedio/</td>
+<td></td>
+<td>5</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Santander digital, https://www.santander.com.mx/personas/santander-digital/</td>
+<td></td>
+<td>7</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Negocio internacional, https://www.santander.com.mx/pyme/negocio-internacional.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToAcercaBancoOption()'><b>shouldNavigateToAcercaBancoOption</b><br>Test class: tests.SantanderTest<br>Parameters: Sala de comunicación, https://www.santander.com.mx/ceb/sala_prensa_2026.html</td>
+<td></td>
+<td>24</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Crédito personal, https://www.santander.com.mx/personas/credito-y-financiamiento/creditos-personales/</td>
+<td></td>
+<td>4</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToAcercaBancoOption()'><b>shouldNavigateToAcercaBancoOption</b><br>Test class: tests.SantanderTest<br>Parameters: Inversionistas, https://www.santander.com.mx/ir/home/</td>
+<td></td>
+<td>4</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Crédito automotríz, https://www.santander.com.mx/personas/credito-y-financiamiento/credito-automotriz/</td>
+<td></td>
+<td>9</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Auto, https://www.santander.com.mx/personas/seguros.html#auto</td>
+<td></td>
+<td>9</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Divisas y coberturas, https://www.santander.com.mx/pyme/coberturas-y-cambios.html</td>
+<td></td>
+<td>5</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Alianzas, https://www.santander.com.mx/pyme/alianzas.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Ahorro, https://www.santander.com.mx/personas/seguros.html#ahorro</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Santander Pyme, https://www.santander.com.mx/pyme.html</td>
+<td></td>
+<td>11</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Portabilidad de nómina, https://www.santander.com.mx/personas/cuentas/portabilidad-de-nomina/</td>
+<td></td>
+<td>11</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Gastos médicos, https://www.santander.com.mx/personas/seguros.html#gastos-medicos</td>
+<td></td>
+<td>8</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Negocio transaccional, https://www.santander.com.mx/pyme/negocio-transaccional.html</td>
+<td></td>
+<td>9</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Centro de seguridad, https://www.santander.com.mx/personas/informacion-y-ayuda/centro-de-seguridad/</td>
+<td></td>
+<td>12</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Soluciones para colectivos, https://www.santander.com.mx/personas/colectivos.html</td>
+<td></td>
+<td>8</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Crédito hipotecario, https://www.santander.com.mx/personas/credito-y-financiamiento/creditos-hipotecarios/</td>
+<td></td>
+<td>5</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToEmpresasOption()'><b>shouldNavigateToEmpresasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Empresas y gobierno, https://www.santander.com.mx/bei/home.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Cuentas, https://www.santander.com.mx/personas/cuentas/</td>
+<td></td>
+<td>4</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPymesOption()'><b>shouldNavigateToPymesOption</b><br>Test class: tests.SantanderTest<br>Parameters: Cuentas, https://www.santander.com.mx/pyme/cuentas.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Notas estructuradas, https://www.santander.com.mx/personas/inversiones/#notas-estructuradas</td>
+<td></td>
+<td>12</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToAcercaBancoOption()'><b>shouldNavigateToAcercaBancoOption</b><br>Test class: tests.SantanderTest<br>Parameters: Educación Financiera, https://www.santander.com.mx/educacion-financiera/</td>
+<td></td>
+<td>12</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Canales alternos, https://www.santander.com.mx/personas/operaciones-canales-alternos/index.html</td>
+<td></td>
+<td>2</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Términos y condiciones, https://www.santander.com.mx/tyc</td>
+<td></td>
+<td>11</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Nómina, https://www.santander.com.mx/personas/cuentas/basica-nomina/</td>
+<td></td>
+<td>5</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Promociones Santander, https://www.santander.com.mx/promociones/</td>
+<td></td>
+<td>9</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Inversiones a plazo, https://www.santander.com.mx/personas/inversiones/#inversiones-a-plazo</td>
+<td></td>
+<td>5</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Centro de ayuda, https://www.santander.com.mx/personas/centro-de-ayuda.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Tutoriales, https://www.santander.com.mx/personas/tutoriales.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Hogar, https://www.santander.com.mx/personas/seguros.html#hogar</td>
+<td></td>
+<td>2</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Unique Rewards, https://www.uniquerewards.santander.com.mx/web/home</td>
+<td></td>
+<td>11</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Vida, https://www.santander.com.mx/personas/seguros.html#vida</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Cajeros automáticos, https://www.santander.com.mx/personas/cajeros-automaticos.html</td>
+<td></td>
+<td>3</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Simulador de hipoteca, https://www.santander.com.mx/personas/credito-y-financiamiento/creditos-hipotecarios/simulador-hipotecario/</td>
+<td></td>
+<td>18</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Buró de crédito, https://www.santander.com.mx/personas/credito-y-financiamiento/buro-de-credito/</td>
+<td></td>
+<td>12</td>
+<td>tests.SantanderTest@79079097</td></tr>
+<tr>
+<td title='tests.SantanderTest.shouldNavigateToPersonasOption()'><b>shouldNavigateToPersonasOption</b><br>Test class: tests.SantanderTest<br>Parameters: Cashback, https://www.santander.com.mx/cashback.html</td>
+<td></td>
+<td>5</td>
+<td>tests.SantanderTest@79079097</td></tr>
+</table><p>
+</body>
+</html>

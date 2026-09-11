@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="60" passed="60" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-08T15:50:20 CST" name="Default suite" finished-at="2026-09-08T16:01:47 CST" duration-ms="687233">
+    <groups>
+    </groups>
+    <test started-at="2026-09-08T15:50:20 CST" name="Default test" finished-at="2026-09-08T16:01:47 CST" duration-ms="687233">
+      <class name="tests.SantanderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:50:20 CST" name="setUp" finished-at="2026-09-08T15:50:25 CST" duration-ms="5493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:50:25 CST" name="resetPage" finished-at="2026-09-08T15:50:25 CST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToAcercaBancoOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:50:26 CST" name="shouldNavigateToAcercaBancoOption" data-provider="acercaBancoOptions" finished-at="2026-09-08T15:50:45 CST" duration-ms="19590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fundación Santander]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/acerca-del-banco/fundacion-santander.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToAcercaBancoOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:50:45 CST" name="resetPage" finished-at="2026-09-08T15:50:47 CST" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToAcercaBancoOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:50:47 CST" name="shouldNavigateToAcercaBancoOption" data-provider="acercaBancoOptions" finished-at="2026-09-08T15:50:53 CST" duration-ms="5976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blog]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/blog.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToAcercaBancoOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:50:53 CST" name="resetPage" finished-at="2026-09-08T15:50:59 CST" duration-ms="5696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToAcercaBancoOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:50:59 CST" name="shouldNavigateToAcercaBancoOption" data-provider="acercaBancoOptions" finished-at="2026-09-08T15:51:02 CST" duration-ms="3337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sostenibilidad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/acerca-del-banco/responsabilidad-social.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToAcercaBancoOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:02 CST" name="resetPage" finished-at="2026-09-08T15:51:02 CST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToAcercaBancoOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:02 CST" name="shouldNavigateToAcercaBancoOption" data-provider="acercaBancoOptions" finished-at="2026-09-08T15:51:15 CST" duration-ms="12686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Educación Financiera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/educacion-financiera/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToAcercaBancoOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:15 CST" name="resetPage" finished-at="2026-09-08T15:51:21 CST" duration-ms="5843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToAcercaBancoOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:21 CST" name="shouldNavigateToAcercaBancoOption" data-provider="acercaBancoOptions" finished-at="2026-09-08T15:51:25 CST" duration-ms="4009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inversionistas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/ir/home/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToAcercaBancoOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:25 CST" name="resetPage" finished-at="2026-09-08T15:51:25 CST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToAcercaBancoOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:25 CST" name="shouldNavigateToAcercaBancoOption" data-provider="acercaBancoOptions" finished-at="2026-09-08T15:51:50 CST" duration-ms="24799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sala de comunicación]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/ceb/sala_prensa_2026.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToAcercaBancoOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:50 CST" name="resetPage" finished-at="2026-09-08T15:51:56 CST" duration-ms="6381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToAcercaBancoOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:51:56 CST" name="shouldNavigateToAcercaBancoOption" data-provider="acercaBancoOptions" finished-at="2026-09-08T15:52:00 CST" duration-ms="3310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bolsa de trabajo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/bolsa-de-trabajo.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToAcercaBancoOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:00 CST" name="resetPage" finished-at="2026-09-08T15:52:05 CST" duration-ms="5421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToBancaPrivada()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:05 CST" name="shouldNavigateToBancaPrivada" finished-at="2026-09-08T15:52:12 CST" duration-ms="7034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToBancaPrivada -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:12 CST" name="resetPage" finished-at="2026-09-08T15:52:18 CST" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToEmpresasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:18 CST" name="shouldNavigateToEmpresasOption" data-provider="empresasOptions" finished-at="2026-09-08T15:52:21 CST" duration-ms="3314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Empresas y gobierno]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/bei/home.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToEmpresasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:21 CST" name="resetPage" finished-at="2026-09-08T15:52:28 CST" duration-ms="6174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToEmpresasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:28 CST" name="shouldNavigateToEmpresasOption" data-provider="empresasOptions" finished-at="2026-09-08T15:52:31 CST" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Multinacionales]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/acerca-del-banco/multinacionales.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToEmpresasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:31 CST" name="resetPage" finished-at="2026-09-08T15:52:31 CST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:31 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:52:37 CST" duration-ms="6560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tarjetas de crédito]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/credito-y-financiamiento/tarjetas-de-credito/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:37 CST" name="resetPage" finished-at="2026-09-08T15:52:43 CST" duration-ms="5928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:43 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:52:48 CST" duration-ms="4810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Crédito personal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/credito-y-financiamiento/creditos-personales/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:48 CST" name="resetPage" finished-at="2026-09-08T15:52:54 CST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:54 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:52:59 CST" duration-ms="5164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Crédito hipotecario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/credito-y-financiamiento/creditos-hipotecarios/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:52:59 CST" name="resetPage" finished-at="2026-09-08T15:53:05 CST" duration-ms="5881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:53:05 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:53:24 CST" duration-ms="18360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Simulador de hipoteca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/credito-y-financiamiento/creditos-hipotecarios/simulador-hipotecario/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:53:24 CST" name="resetPage" finished-at="2026-09-08T15:53:30 CST" duration-ms="6880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:53:30 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:53:40 CST" duration-ms="9251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Crédito automotríz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/credito-y-financiamiento/credito-automotriz/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:53:40 CST" name="resetPage" finished-at="2026-09-08T15:53:40 CST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:53:40 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:53:52 CST" duration-ms="12488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Buró de crédito]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/credito-y-financiamiento/buro-de-credito/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:53:52 CST" name="resetPage" finished-at="2026-09-08T15:53:53 CST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:53:53 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:54:00 CST" duration-ms="7714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santander digital]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/santander-digital/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:00 CST" name="resetPage" finished-at="2026-09-08T15:54:07 CST" duration-ms="6736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:07 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:54:08 CST" duration-ms="1405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[App Santander]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/santander-digital/app-santander/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:08 CST" name="resetPage" finished-at="2026-09-08T15:54:14 CST" duration-ms="5952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:14 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:54:20 CST" duration-ms="6018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santander Web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/santander-digital/santander-web/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:20 CST" name="resetPage" finished-at="2026-09-08T15:54:26 CST" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:26 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:54:27 CST" duration-ms="969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Límite por transacción]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/santander-digital/limite-por-transaccion/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:27 CST" name="resetPage" finished-at="2026-09-08T15:54:33 CST" duration-ms="6200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:33 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:54:37 CST" duration-ms="4268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cuentas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/cuentas/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:37 CST" name="resetPage" finished-at="2026-09-08T15:54:43 CST" duration-ms="6017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:43 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:54:48 CST" duration-ms="4776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Básica]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/cuentas/basica/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:48 CST" name="resetPage" finished-at="2026-09-08T15:54:54 CST" duration-ms="5627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:54 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:54:59 CST" duration-ms="5013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nómina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/cuentas/basica-nomina/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:54:59 CST" name="resetPage" finished-at="2026-09-08T15:55:05 CST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:05 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:55:10 CST" duration-ms="5085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cheques]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/cuentas/cheque-saldo-promedio/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:10 CST" name="resetPage" finished-at="2026-09-08T15:55:17 CST" duration-ms="7162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:17 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:55:28 CST" duration-ms="11188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Portabilidad de nómina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/cuentas/portabilidad-de-nomina/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:28 CST" name="resetPage" finished-at="2026-09-08T15:55:28 CST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:28 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:55:44 CST" duration-ms="15744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fondos de inversión]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/inversiones/#fondos-de-inversion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:44 CST" name="resetPage" finished-at="2026-09-08T15:55:50 CST" duration-ms="6049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:50 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:55:56 CST" duration-ms="5551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inversiones a plazo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/inversiones/#inversiones-a-plazo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:56 CST" name="resetPage" finished-at="2026-09-08T15:55:56 CST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:55:56 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:56:08 CST" duration-ms="12224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Notas estructuradas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/inversiones/#notas-estructuradas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:08 CST" name="resetPage" finished-at="2026-09-08T15:56:08 CST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:08 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:56:18 CST" duration-ms="9649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Auto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/seguros.html#auto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:18 CST" name="resetPage" finished-at="2026-09-08T15:56:24 CST" duration-ms="5797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:24 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:56:27 CST" duration-ms="3051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vida]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/seguros.html#vida]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:27 CST" name="resetPage" finished-at="2026-09-08T15:56:33 CST" duration-ms="5853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:33 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:56:35 CST" duration-ms="2848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hogar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/seguros.html#hogar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:35 CST" name="resetPage" finished-at="2026-09-08T15:56:41 CST" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:41 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:56:44 CST" duration-ms="3142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahorro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/seguros.html#ahorro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:44 CST" name="resetPage" finished-at="2026-09-08T15:56:44 CST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:44 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:56:53 CST" duration-ms="8906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gastos médicos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/seguros.html#gastos-medicos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:53 CST" name="resetPage" finished-at="2026-09-08T15:56:53 CST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:56:53 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:57:03 CST" duration-ms="9886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pertenencias]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/seguros.html#pertenencias]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:03 CST" name="resetPage" finished-at="2026-09-08T15:57:10 CST" duration-ms="6333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:10 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:57:13 CST" duration-ms="3663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SuperLínea]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/superlinea.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:13 CST" name="resetPage" finished-at="2026-09-08T15:57:13 CST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:13 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:57:33 CST" duration-ms="19769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sucursales]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/sucursales.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:33 CST" name="resetPage" finished-at="2026-09-08T15:57:41 CST" duration-ms="8264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:41 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:57:45 CST" duration-ms="3946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cajeros automáticos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/cajeros-automaticos.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:45 CST" name="resetPage" finished-at="2026-09-08T15:57:52 CST" duration-ms="6283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:52 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:57:54 CST" duration-ms="2140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canales alternos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/operaciones-canales-alternos/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:57:54 CST" name="resetPage" finished-at="2026-09-08T15:58:00 CST" duration-ms="5964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:00 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:58:03 CST" duration-ms="3106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Centro de ayuda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/centro-de-ayuda.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:03 CST" name="resetPage" finished-at="2026-09-08T15:58:03 CST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:03 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:58:15 CST" duration-ms="12287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Centro de seguridad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/informacion-y-ayuda/centro-de-seguridad/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:15 CST" name="resetPage" finished-at="2026-09-08T15:58:22 CST" duration-ms="6387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:22 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:58:25 CST" duration-ms="3013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tutoriales]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/tutoriales.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:25 CST" name="resetPage" finished-at="2026-09-08T15:58:30 CST" duration-ms="5706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:30 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:58:42 CST" duration-ms="11933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Términos y condiciones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/tyc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:42 CST" name="resetPage" finished-at="2026-09-08T15:58:48 CST" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:48 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:58:51 CST" duration-ms="2747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Regulación]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/regulacion/tramite-por-defuncion.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:51 CST" name="resetPage" finished-at="2026-09-08T15:58:56 CST" duration-ms="5621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:58:56 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:59:00 CST" duration-ms="3416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Select]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/select.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:00 CST" name="resetPage" finished-at="2026-09-08T15:59:00 CST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:00 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:59:10 CST" duration-ms="9709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Promociones Santander]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/promociones/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:10 CST" name="resetPage" finished-at="2026-09-08T15:59:10 CST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:10 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:59:21 CST" duration-ms="11802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Unique Rewards]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.uniquerewards.santander.com.mx/web/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:21 CST" name="resetPage" finished-at="2026-09-08T15:59:22 CST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:22 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:59:31 CST" duration-ms="8975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Soluciones para colectivos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/personas/colectivos.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:31 CST" name="resetPage" finished-at="2026-09-08T15:59:37 CST" duration-ms="6124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:37 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:59:39 CST" duration-ms="2474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mundo hogar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.mundohogar.com.mx/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:39 CST" name="resetPage" finished-at="2026-09-08T15:59:46 CST" duration-ms="7212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPersonasOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:46 CST" name="shouldNavigateToPersonasOption" data-provider="personasOptions" finished-at="2026-09-08T15:59:52 CST" duration-ms="5379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cashback]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/cashback.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPersonasOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:52 CST" name="resetPage" finished-at="2026-09-08T15:59:52 CST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T15:59:52 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:00:03 CST" duration-ms="11231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santander Pyme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:03 CST" name="resetPage" finished-at="2026-09-08T16:00:09 CST" duration-ms="5292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:09 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:00:14 CST" duration-ms="5128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divisas y coberturas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/coberturas-y-cambios.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:14 CST" name="resetPage" finished-at="2026-09-08T16:00:20 CST" duration-ms="6337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:20 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:00:24 CST" duration-ms="3447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cuentas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/cuentas.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:24 CST" name="resetPage" finished-at="2026-09-08T16:00:29 CST" duration-ms="5275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:29 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:00:33 CST" duration-ms="3777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Negocio internacional]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/negocio-internacional.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:33 CST" name="resetPage" finished-at="2026-09-08T16:00:38 CST" duration-ms="5448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:38 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:00:42 CST" duration-ms="4288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paquetes Pymes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/paquetes-pymes.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:42 CST" name="resetPage" finished-at="2026-09-08T16:00:49 CST" duration-ms="6209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:49 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:00:52 CST" duration-ms="3840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Créditos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/creditos.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:52 CST" name="resetPage" finished-at="2026-09-08T16:00:52 CST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:00:52 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:01:05 CST" duration-ms="12072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seguros]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/seguros.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:05 CST" name="resetPage" finished-at="2026-09-08T16:01:10 CST" duration-ms="5490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:10 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:01:14 CST" duration-ms="3862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alianzas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/alianzas.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:14 CST" name="resetPage" finished-at="2026-09-08T16:01:14 CST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:14 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:01:24 CST" duration-ms="9851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Negocio transaccional]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/negocio-transaccional.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:24 CST" name="resetPage" finished-at="2026-09-08T16:01:24 CST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:24 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:01:34 CST" duration-ms="9664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ecosistema no financiero]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/ecosistemas-pyme.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="resetPage()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:34 CST" name="resetPage" finished-at="2026-09-08T16:01:40 CST" duration-ms="5914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPage -->
+        <test-method signature="shouldNavigateToPymesOption(java.lang.String,java.lang.String)[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:40 CST" name="shouldNavigateToPymesOption" data-provider="pymesOptions" finished-at="2026-09-08T16:01:43 CST" duration-ms="3803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Inversiones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.santander.com.mx/pyme/inversiones.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateToPymesOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SantanderTest@79079097]" started-at="2026-09-08T16:01:43 CST" name="tearDown" finished-at="2026-09-08T16:01:47 CST" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SantanderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
